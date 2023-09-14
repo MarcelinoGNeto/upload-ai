@@ -1,0 +1,11 @@
+NodeJs
+Typescript
+Fastify - rotas http (get, post, put, delete ...)
+	@fastify/cors (dependencia restringir acesso do front ao back, permitir apenas alguns específicos)
+Prisma - ORM Banco de dados
+	Cada model representa uma tabela no banco de dados
+	Criar migrates: $ pnpm prisma migrate dev
+	Enter a name for the new migration: » create videos and prompts
+	É gerado o arquivo .sql com os códigos e cria as tabelas
+	rodar prisma: pnpm prisma studio (visualizar as tabelas criadas)
+Zod - validar parâmetros
